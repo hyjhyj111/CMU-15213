@@ -1,0 +1,44 @@
+# 忽略所有可执行文件
+*.out
+*.o
+*.so
+*.a
+*.d
+
+# 忽略 lab 中编译生成的执行文件
+bomb
+csim
+tsh
+mdriver
+mdriver-alt
+sdriver
+sbuf
+tiny
+proxy
+./sim/*
+
+# 忽略备份文件和临时文件
+*~
+*.bak
+*.swp
+*.tmp
+*.orig
+*.rej
+.DS_Store
+
+# 忽略 tar 包和解压缩临时目录
+*.tar
+*.tar.gz
+*.tgz
+
+# 忽略编译生成的输出目录
+__pycache__/
+build/
+bin/
+obj/
+.vscode/
+.idea/
+.clangd/
+
+# clangd 生成的文件（如 compile_commands.json，如果是自动生成的）
+compile_commands.json
