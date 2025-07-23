@@ -6,7 +6,6 @@
 *.d
 
 # 忽略 lab 中编译生成的执行文件
-bomb
 csim
 tsh
 mdriver
